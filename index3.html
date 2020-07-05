@@ -1,0 +1,194 @@
+<Doctype html>
+<html lang="en">
+
+    <head>
+        <style>
+            
+            .grid-container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 4fr 1fr 1fr 1fr;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            .social{
+                height: 50px;
+                position: fixed;
+                top: 550px;
+                right: 20px;
+                display: block;
+            }
+
+            .body{
+                font-size: small;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .gmail{
+                grid-column-start: 6;
+                grid-column-end: 7;
+                padding-left: 27px;
+            }
+
+            .img{
+                grid-column-start: 7;
+                grid-column-end: 8;
+                padding-left: 27px;
+            }
+
+            .social2{
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 4;
+                grid-row-end: 5;
+                padding-inline: 180px;
+            }
+
+            .type{
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 4;
+                grid-row-end: 5;
+                margin: 85px;
+                font-size:10px;
+                padding: 10px;
+                margin-left: 49px;
+            }
+
+            .Bgoogle{
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 4;
+                grid-row-end: 5;
+                padding: 10px;
+                margin: 120px;
+            }
+
+            .me-siento{
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 4;
+                grid-row-end: 5;
+                padding: 0 128px;
+                margin: 120px;
+                margin-top: 131px;
+            }
+
+            .action-button{
+                background-color: #f2f2f2;
+                border-radius: 4px;
+                color: #323436;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 11px;
+                margin: 11px 4px;
+                padding: 7px;
+                height: 36px;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .action-button:hover{
+                padding: 7px;
+                border-radius: 5px;
+                color: #ffffff;
+                background-color: rgb(87, 85, 85);
+            }
+
+            .col{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 6;
+                grid-row-end: 7;
+            }
+
+            .publicidad{
+                grid-column-start: 1;
+                grid-column-end: 2;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                padding-right: 27px;
+                margin: 0;
+            }
+
+            .negocio{
+                grid-column-start: 2;
+                grid-column-end: 3;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                padding-right: 27px;
+                margin: 0;
+            }
+
+            .sobre{
+                grid-column-start: 3;
+                grid-column-end: 4;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                padding-right: 27px;
+                margin: 0;
+            }
+
+            .funcion{
+                grid-column-start: 4;
+                grid-column-end: 5;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                padding-right: 27px;
+                margin: 0;
+            }
+
+            .priv{
+                grid-column-start: 5;
+                grid-column-end: 6;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                padding-left: 27px;
+            }
+
+            .condicion{
+                grid-column-start: 6;
+                grid-column-end: 7;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                padding-left: 27px;
+            }
+
+            .pref{
+                grid-column-start: 7;
+                grid-column-end: 8;
+                grid-row-start: 7;
+                grid-row-end: 8;
+                padding-left: 27px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        
+        <!-- este es social box -->
+        <div>
+            <img class="social" src="img/Whatsapp.png" alt="">
+        </div>
+
+        <div class="grid-container">
+
+                <div class="gmail">Gmail</div>
+                <div class="img">Imagenes</div>
+
+                <img class="social2" src="img/Google.png" alt="">
+                <div class="type"><input type="text" size="65" maxlength="20"></div>
+                <div class="Bgoogle"><a href="https://www.google.com.co/" class="action-button">Buscar con google</a></div>
+                <div class="me-siento"><a href="https://www.google.com/doodles" class="action-button">Me siento con suerte</a></div>
+
+                <div class="col">Colombia</div>
+                <div class="publicidad">Publicidad</div>
+                <div class="negocio">Negocios</div>
+                <div class="sobre">Sobre google</div>
+                <div class="funcion">Como funciona la busqueda</div>
+                <div class="priv">Privacidad</div>
+                <div class="condicion">Condiciones</div>
+                <div class="pref">Preferencias</div>
+
+        </div>
+    </body>
